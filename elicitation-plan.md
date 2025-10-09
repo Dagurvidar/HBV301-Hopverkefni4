@@ -1,7 +1,17 @@
 # Áætlun fyrir kröfugreiningarfund
 
 ## Markmið
-- Lýsa helstu markmiðum kröfusöfnunar fyrir verkefnið sem á að greina 
+- Lýsa helstu markmiðum kröfusöfnunar fyrir verkefnið sem á að greina
+
+Safnið og flokkið kröfur þeirra í:
+
+notendakröfur
+
+gæðaeiginleika (nonfunctional requirements)
+
+viðskiptareglur
+
+o.fl. eins og við á.
 
 ## Áætlaður staður og stund fyrir fundinn 
 
