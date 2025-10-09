@@ -13,7 +13,7 @@ viðskiptareglur
 
 o.fl. eins og við á.
 
-Hálf blaðsíða: Áætlun fyrir kröfusöfnun, punktalisti
+punktalisti
 
 ## Áætlaður staður og stund fyrir fundinn 
 
