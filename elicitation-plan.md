@@ -15,7 +15,9 @@ o.fl. eins og við á.
 
 punktalisti
 
-## Áætlaður staður og stund fyrir fundinn 
+## Áætlaður staður og stund fyrir fundinn
+
+fundurinnn verður haldinn kl 14:30 16/10/2025 í öskju stofu 131.
 
 ## Þátttakendur og hlutverk
 - Facilitator: Hver stýrir fundinum, hlutverk 
