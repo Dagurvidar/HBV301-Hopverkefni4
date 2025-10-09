@@ -9,9 +9,13 @@
 ---
 
 ## Hópur
-- Nöfn hópmeðlima
-- GitHub slóð
-- Verkaskipting
+- Dagur Ingi Viðar og Stefán Steinar Guðlaugsson
+- GitHub slóð: https://github.com/Dagurvidar/HBV301-Hopverkefni4
+
+- Verkaskipting:
+Dagur:
+
+Stefán:
 
 ## Ígrundun
 Lýsið stuttlega hvernig kröfugreiningin gekk, hvað þið lærðuð og hvað mætti bæta næst.
