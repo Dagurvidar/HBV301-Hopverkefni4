@@ -15,7 +15,134 @@
 - Haldinn verður kröfusöfnunarfundur við viðskiptavini.
 
 #### Spurningar
-- 
+
+# Viðtalsrammi – Viðskiptaaðilar Straums
+
+**Viðmælandi:** ____________________________  
+**Dagsetning:** 16/10/2025  
+**Tími:** ____________________________  
+**Viðtal tekið af:** ________________________  
+
+---
+
+## Almennt – Yfirsýn og samhengi
+**Markmið:** Skilja bakgrunn, forsendur og forgang verkefnisins.
+
+- Geturðu lýst vandanum sem þessi markmið eiga að leysa?  
+  > ___________________________________________________________
+
+- Af hverju eru þessi markmið forgangsverkefni núna?  
+  > ___________________________________________________________
+
+- Hverjir eru helstu hagsmunaaðilar í þessu verkefni, og hvað vilja þeir helst sjá?  
+  > ___________________________________________________________
+
+- Ef þú þyrftir að velja milli hraða, einfaldleika og samstarfa — hvað væri mikilvægast fyrir fyrstu útgáfu?  
+  > ___________________________________________________________
+
+---
+
+## BO-1 – Minnka ferðaskipulagstíma
+**Markmið:** Skilja hvað hægir á ferlinu og hvað þarf til að gera það liprara.
+
+- Hvernig ætlið þið að mæla hvað tekur ferðaskipulag tekur langan tíma?  
+  > ___________________________________________________________
+
+- Hvað liggur að baki þessari 30% styttingarkröfu?  
+  > ___________________________________________________________
+
+- Hvaða þættir hægja mest á ferlinu í dag?  
+  > ___________________________________________________________
+
+---
+
+## BO-2 – Sameina mismunandi þjónustur á einn stað
+**Markmið:** Kanna hvaða þjónustur skipta mestu máli og hvers vegna sameiningin er lykilatriði.
+
+- Hvaða þjónustur finnst ykkur mikilvægast að sameina í fyrstu útgáfu?  
+  > ___________________________________________________________
+
+- Hvað eru helstu áskoranir við að sameina mismunandi þjónustuaðila?  
+  > ___________________________________________________________
+
+- Hvernig mælið þið „einfaldara ferðaskipulag“?  
+  > ___________________________________________________________
+
+- Hvað þyrfti að vera til staðar svo notandi upplifi raunverulega einfaldað ferli, ekki bara nýtt viðmót?  
+  > ___________________________________________________________
+
+---
+
+## BO-3 – Auka notkun almenningssamgangna
+**Markmið:** Finna hvernig Straumur getur haft áhrif á ferðavenjur fólks.-
+
+- Hvað eru stærstu hindranirnar sem gera fólk tregt til að nota almenningssamgöngur?  
+  > ___________________________________________________________
+
+- Hvernig gæti Straumur hjálpað til við að brjóta niður þessar hindranir?  
+  > ___________________________________________________________
+
+- Ef markmiðið næst ekki (t.d. notkun eykst aðeins um 5–10%), hvað væri þá næsta skref?  
+  > ___________________________________________________________
+
+---
+
+## BO-4 – Samstarf við samgöngufyrirtæki
+**Markmið:** Skilja viðskiptaleg og tæknileg skilyrði fyrir samstarfi.
+
+- Hvernig veljið þið hvaða fyrirtæki þið viljið vinna með fyrst?  
+  > ___________________________________________________________
+
+- Hvað þurfa samstarfsaðilar að fá út úr þessu til að það sé gagnkvæmt virði?  
+  > ___________________________________________________________
+
+- Hvað gæti orðið helsti erfiðleiki í að ná þessum 5 samstörfum á fyrsta ári?  
+  > ___________________________________________________________
+
+- Hvernig myndi árangursríkt samstarf líta út að ári liðnu?  
+  > ___________________________________________________________
+
+- Hvað mynduð þið nota til að deila eða taka við gögnum frá samstarfsaðilum? Ef svo er, hvaða staðla eða útgáfur (REST, GraphQL, SOAP, o.s.frv.)? 
+  > ___________________________________________________________
+
+- Á hvaða formi eru gögnin sem eru flutt milli samstarfsaðila
+  > ___________________________________________________________
+
+---
+
+## Undirliggjandi forsendur og áhætta
+**Markmið:** Kanna áhættu, sveigjanleika og ákvarðanavinnu.
+
+- Hvaða forsendur liggja að baki þessum markmiðum?  
+  > ___________________________________________________________
+  
+- Eru einhverjar þeirra óvissar?  
+  > ___________________________________________________________
+
+- Ef við kæmumst að því að notendur vilja eitthvað annað en markmiðin leggja upp með – hversu sveigjanleg eru markmiðin þá?  
+  > ___________________________________________________________
+
+- Hvaða viðmið eða gildi viljið þið að leiði ákvarðanir þegar hagsmunir rekast á (t.d. notendaupplifun vs. kostnaður)?  
+  > ___________________________________________________________
+
+---
+
+## Lokaspurningar
+**Markmið:** Fá samantekt og endanlega sýn á framtíðarsýn viðskiptavinarins.
+
+- Hvað væri það versta sem gæti gerst ef Straumur mistekst?  
+  > ___________________________________________________________
+
+- Og hvað væri það besta sem gæti gerst ef allt gengur fullkomlega?  
+  > ___________________________________________________________
+
+---
+
+## Athugasemdir eftir viðtal
+> ___________________________________________________________
+> ___________________________________________________________
+> ___________________________________________________________
+
 
 ## Líkön til að kveikja umræðu, skjöl og kerfi 
 - Búðu til einföld drög (t.d. flæði ferla, notkunartilvik, grófar skjámyndir) til að kveikja umræðu. 
