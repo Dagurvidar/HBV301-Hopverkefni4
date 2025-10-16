@@ -28,6 +28,10 @@
 ## Almennt – Yfirsýn og samhengi
 **Markmið:** Skilja bakgrunn, forsendur og forgang verkefnisins.
 
+
+- Hvernig lítur fyrsta síðan sem notandi sér út?  
+  > ___________________________________________________________
+
 - Geturðu lýst vandanum sem þessi markmið eiga að leysa?  
   > ___________________________________________________________
 
