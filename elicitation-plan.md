@@ -30,26 +30,26 @@
 
 
 - Hvernig lítur fyrsta síðan sem notandi sér út?  
-  > ___________________________________________________________
+  > aðallega app f. farsíma. Væri með svipað viðmót og klapp nema flottara. Valmynd: Plana, skoða kort, panta, kaupa miða o.fl. Fleiri kostir innan hvers kosts. Pana ferð, samgöngumátar, áfanga og brottfararstað og tíma. Kort, strætóstopp, leigbílar, lestir sporvagnar, hopp og leiguhjól, bílaleigubílar, deilibílar ásamt síu. Á að vera hægt að nota appið sem gestur án þess að vera með aðgang.
 
 - Geturðu lýst vandanum sem þessi markmið eiga að leysa?  
-  > ___________________________________________________________
+  > Ef þú ert einstaklingur sem notar marga mismunandi ferðamáta, deilibíl, strætó o.s.frv. þá viljum við einfalda þetta og hafa þetta allt á einum stað. Einfalda skipulagningu og minnka tíma í að skipuleggja og ákveða hvaða ferðamáta skal nota, eftir tíma, umhverfisvænni. Á háannartíma mun þetta virka eins og google maps.
 
 - Af hverju eru þessi markmið forgangsverkefni núna?  
-  > ___________________________________________________________
+  > Hildur elskar samgöngur og hefur áhuga á lestum og sporvögnum. Sigga er alltaf 'on board'. Hildur tekur alltaf samgöngur í skólann
 
 - Hverjir eru helstu hagsmunaaðilar í þessu verkefni, og hvað vilja þeir helst sjá?  
-  > ___________________________________________________________
+  > ferðamenn, venjulegir brgarar sem ferðast frá a til b, samgönufyrirtæki, borgir og svietarfélög, umhverfissinnar, samgöngunördar eins og Hildur.
 
 - Ef þú þyrftir að velja milli hraða, einfaldleika og samstarfa — hvað væri mikilvægast fyrir fyrstu útgáfu?  
-  > ___________________________________________________________
+  > samstörf, þyrftu að tengja kerfið við klapp, hopp, rútufyrirtæki. Draumurinn væru að búa til þetta kerfi fyrir Danmörku. Draumurinn er að hafa þetta yfir allan heim og líka fyrir ferjur og aðra báta.
 
 ---
 
 ## BO-1 – Minnka ferðaskipulagstíma
 **Markmið:** Skilja hvað hægir á ferlinu og hvað þarf til að gera það liprara.
 
-- Hvernig ætlið þið að mæla hvað tekur ferðaskipulag tekur langan tíma?  
+- Hvernig ætlið þið að mæla hvað ferðaskipulag tekur langan tíma?  
   > ___________________________________________________________
 
 - Hvað liggur að baki þessari 30% styttingarkröfu?  
