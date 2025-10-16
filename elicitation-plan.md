@@ -2,87 +2,86 @@
 
 ## Markmið
 - Lýsa helstu markmiðum kröfusöfnunar fyrir verkefnið sem á að greina
-- Skilgreina umfang (in/out) og árangursviðmið verkefnisins
-- Kortleggja lykilnotendur/hlutverk og markmið þeirra (actors & goals)
-- Safna og flokka kröfur: notendakröfur, gæðaeiginleikar, viðskiptareglur, gögn/samþættingar
-- Staðfesta 1–2 lykil notkunartilvik (use cases) fyrir „fully dressed“ lýsingu
-- Forgangsröðun (MoSCoW) fyrir útgáfu 1 og skrá opnar spurningar
+  - Tengja kröfur beint við **viðskiptamarkmið BO-1…BO-4**:
+    - **BO-1 (tími → 3,5 mín / stretch 2 mín):** kortleggja skref „leita → bera saman → staðfesta“ og finna tímaþröskulda, biðpunkt og sjálfvirkan stuðning (forsendingar fyrir mælingum og tímabroti).
+    - **BO-2 (einföldun):** greina hvaða þjónustur þarf að **sameina á einn stað** (leit, leiðaval, miðakaup, greiðslur, tilkynningar) og hvaða snertipunktar hverfa.
+    - **BO-3 (20%→40%+ notkun almenningssamgangna):** skilja hvata/þröskulda sem breyta vali ferðamáta; skilgreina eiginleika sem ýta notendum í almenningssamgöngur (verð, tími, áreiðanleiki, CO₂, gamification).
+    - **BO-4 (samstarf 5–8 fyrirtæki):** safna samþættingarkröfum (API, gagnaformat, SLA, lög/leyfi) og samningsbundnum viðskiptareglum.
+  - Skilgreina **mælanleg NFR „quality scenarios“** sem styðja BO-1..BO-4 (t.d. 95% svör <2s).
+  - Samþykkja 1–2 **lykil notkunartilvik** í „fully dressed“ sniði (Plan Trip, Purchase/Validate Ticket).
 
 ## Áætlaður staður og stund fyrir fundinn 
-- **Staður:** Öskja, stofa 131 (hvítborð + skjávarpi)
-- **Stund:** 16. október 2025  
-  - Hópur 7 safnar frá 8: **13:30–14:15**  
-  - Hópur 8 safnar frá 7: **14:30–15:15**
+- **Öskja, stofa 131** (hvítborð + skjávarpi).  
+- **16. október 2025** (samkvæmt dagskrá hér að neðan).
 
 ## Þátttakendur og hlutverk
-- Facilitator: **Stefán Steinar Guðlaugsson** — stýrir umræðu, heldur utan um tíma, tryggir að fókus haldist á kröfur (ekki lausnahönnun)
-- Ritari: **[Teymismeðlimur A]** — skráir spurningar/svör, ákvarðanir, opnar spurningar; sér um upptöku ef samþykki fæst og yfirfærslu í textaform
-- Viðskiptavinir/hagsmunaaðilar: **Product Owner**, **Lykilnotandi/þjónustuaðili**, **Tæknitengiliður**, *(ef við á)* **Reglu-/lagaðili** — svara spurningum, staðfesta ferla og reglur, forgangsraða
+- Facilitator: **Stefán Steinar Guðlaugsson** — stýrir umræðu, tímastýring, heldur fókus á kröfur og BO-tengingu.
+- Ritari: **[Teymismeðlimur A]** — skráir spurningar/svör, ákvarðanir, „opnar spurningar“, sér um upptöku (með samþykki) og yfirfærslu í textaform.
+- Viðskiptavinir/hagsmunaaðilar: **Product Owner (Straumur)** — forgangsraðar m.t.t. BO-1..BO-4; **Lykilnotandi** (daglegur notandi/þjónustuborð); **Tæknitengiliður** (samþættingar/API); *(ef við á)* **Reglu-/lagaðili** (samningar, leyfi, persónuvernd).
 
 ## Aðferð kröfusöfnunar
 - Lýsið aðferð kröfusöfnunar, t.d. ef viðtal, þá spurningar (sjá námsefni)
 - Haldinn verður kröfusöfnunarfundur við viðskiptavini.
-- Aðferð: 45 mín. **vinnustofa** með **hálf-stöðluðu viðtali**, **use-case brainstorming** og **mini event-storming** á hvítborði. Lokasprettur: **MoSCoW** forgangsröðun.
+- **Aðferð:** 45–60 mín. **vinnustofa** með **hálf-stöðluðu viðtali**, **use-case brainstorming** og **mini event-storming** (ferli, viðburðir, reglur). Lokasprettur: **MoSCoW** forgangsröðun m.t.t. BO-1..BO-4.
 
 #### Spurningar
-- Viðskiptamarkmið: *Hvað breytist ef kerfið tekst? Hvernig mælum við árangur?*
-- Notendur/hlutverk: *Hverjir nota? Hver er hvati/þörf hvers aðila?*
-- Ferli („happy path“): *Gakktu í gegnum dæmigerða aðgerð frá upphafi til enda.*
-- Undantekningar: *Hvað gerist ef skref X mistekst? Hver bregst við og hvernig?*
-- Gögn: *Hvaða lykilgögn þarf? Uppruni, eigandi, líftími, persónugögn?*
-- Gæðaeiginleikar: *Afköst, öryggi, notagildi, áreiðanleiki, aðgengi — mælanleg viðmið?*
-- Viðskiptareglur: *Hvaða reglur mega aldrei rofna? Stefnur/lög/heimildir?*
-- Samþættingar: *Hvaða ytri kerfi/APIs? Tíðni, stefna, villumeðhöndlun?*
-- Takmarkanir/áhætta: *Hvað gæti tafið? Hver þarf að samþykkja hvað?*
+- **BO-1 (tími):** Hvaða skref telja í „skipulagstíma“? Hvar tapast mestur tími núna? Hvaða gögn þarf til sjálfvirkrar útfyllingar? Hvað er ásættanlegur svartími/ GPS uppfærslutíðni?
+- **BO-2 (einföldun):** Hvaða þjónustur eiga að vera „á einum stað“ (leit, val, miðakaup, greiðsla, tilkynningar)? Hvaða snertipunktum má eyða? Hvað er „einfalt“ að mati notenda (2–3 mælanleg viðmið)?
+- **BO-3 (hegðunarbreyting):** Hvaða eiginleikar myndu sannfæra um almenningssamgöngur (verðsamanburður, ETA+áreiðanleiki, loftslagsmerki, umbun)? Hvaða hindranir (öryggi, seink. óvissa)?
+- **BO-4 (samstarf):** Hvaða fyrirtæki eru target 1. árs? Hvaða API/format/SLA hafa þau? Hver er lágmarks-samningsgagnapakki (taxtar, áætl., nýting, tilkynningar)?
+- **NFR:** Afköst (95. persentíl < X s), áreiðanleiki (tiltæki X%), öryggi (aðgangsstýring, PCI ef greiðslur), aðgengi (WCAG 2.1), persónuvernd (gagna-minnkun).
+- **Viðskiptareglur:** Verðlagning, endurgreiðslur, gögn í skýi/ESB, þjónustustig, villumeðhöndlun.
+- **Gögn & samþættingar:** Lykileiningar (TripPlan, Leg, Provider, Fare, User), uppfærslutíðni, cache, offline-stuðningur.
 
 ## Líkön til að kveikja umræðu, skjöl og kerfi 
 - Búðu til einföld drög (t.d. flæði ferla, notkunartilvik, grófar skjámyndir) til að kveikja umræðu. 
-  - Notendakort (actors ↔ markmið)
-  - Ferilflæði („happy path“ + 2–3 undantekningar) á hvítborði
-  - Notkunartilvikayfirlit (2–5 UC titlar) og grófar skjámyndir (low-fi) af lykilskjám
-  - Gagnakort (lykileiningar og tengsl)
+  - **Ferilflæði:** „Leit áfangastaðar → Samanburður → Val → Miðakaup → Staðfesting“ (+ undantekningar).
+  - **Use-case yfirlit:** *Plan Trip*, *Compare Options*, *Purchase Ticket*, *Realtime Disruption Handling*.
+  - **Wireframes (low-fi):** Leitar-skjár + Samanburðarlista + Checkout.
+  - **Gagnakort:** TripPlan, Leg, ServiceProvider, Fare, Payment, User, Consent.
 - Má t.d. vera mynd(ir) 
 - Ef þú vilt skoða núverandi kerfi með viðskiptakerfi vertu búin að undirbúa það 
-  - Aðganga/lykill, demo-senaríó og skjáupptökuverkfæri tilbúið
-- Stjórnandi: **kynnir líkön, heldur flæði, stýrir tímasetningum**
-- Ritari: **fangar UC skref, viðskiptareglur, NFR „quality scenarios“, tekur myndir af töflum**
-- Viðskiptavinir/hagsmunaaðilar: **staðfesta raunsæi ferla, bæta inn undantekningum og forgangi**
+  - Demo-aðgangur, dæmi um API svör (JSON), skjáupptökuverkfæri, mælaborð fyrir tíma-mælingar.
+- Stjórnandi: **setur módel á hvítborð, heldur fókus á BO-tengingu og tíma**
+- Ritari: **fangar UC-skref, viðskiptareglur, NFR „quality scenarios“, tekur myndir af töflum**
+- Viðskiptavinir/hagsmunaaðilar: **staðfesta ferli, forgangsraða m.t.t. BO-1…BO-4, benda á samþættingar**
 
 ## Dagskrá/Tímalína
 Kröfusöfnunarfundur (Hópur 7 safnar frá 8): 16. október kl 13:30 🕜Kröfusöfnunarfundur (Hópur 8 safnar frá 7): 16. október kl 14:30 🕝
-- 00:00–00:05 Kynning, markmið og rammafundar (vinnureglur, upptaka, orðalisti)
-- 00:05–00:10 Viðskiptamarkmið & umfang (in/out, árangursviðmið)
-- 00:10–00:20 „Happy path“ yfir lykilferli + staðfesting aðila
-- 00:20–00:30 Notkunartilvik: brainstorm → velja 1–2 lykil UC (útgáfa 1)
-- 00:30–00:40 Undantekningar, viðskiptareglur, gögn og samþættingar
-- 00:40–00:45 Gæðaeiginleikar sem „quality scenarios“ (mælanleg atriði)
-- 00:45–00:50 Forgangsröðun (MoSCoW) og samþykkt næstu skref
-- 00:50–00:55 Yfirlit yfir opnar spurningar, eigendur og skiladagsetningar
+- 00:00–00:05 Kynning, fundarreglur, samþykki fyrir upptöku
+- 00:05–00:10 Yfirlit yfir BO-1..BO-4 og umfang (in/out)
+- 00:10–00:20 „Happy path“ Plan Trip (tímatöku-punkta merktir fyrir BO-1)
+- 00:20–00:30 Sameining þjónusta (BO-2) + wireframe walkthrough
+- 00:30–00:38 Samþættingar & viðskiptareglur (BO-4), API/SLA/leyfi
+- 00:38–00:45 Hegðunarhvatar & mælir fyrir BO-3 (mælikvarðar, tilraunir)
+- 00:45–00:52 NFR „quality scenarios“ (afköst, öryggi, aðgengi)
+- 00:52–00:57 MoSCoW forgangsröðun útgáfu 1 (tengd BO)
+- 00:57–01:00 Næstu skref, eigendur, skiladagar & opnar spurningar
 
 ## Áætlaðar afurðir sem koma út úr kröfusöfnuninni 
 Safnið og flokkið kröfur þeirra í:
 
 notendakröfur
-- Yfirlit yfir notkunartilvik (UC titlar + stutt lýsing), „happy path“ skref og 1–2 undantekningar
+- UC-listi (Plan Trip, Compare Options, Purchase Ticket, Realtime Alerts) + „happy path“ og 1–2 undantekningar/UC; tenging við BO-1..BO-4.
 
 gæðaeiginleika (nonfunctional requirements)
-- Mælanleg „quality scenarios“ (t.d. 95% beiðna < 2s; aðgangsstýring; SLA; aðgengi)
+- „Quality scenarios“ (t.d. **BO-1:** 95% leiða < 2s útreikningur; **BO-2:** ≤3 skref í miðakaupum; **BO-3:** A/B-tilraunir á hvötum; **BO-4:** 99.5% API-upptími fyrir samstarfsaðila).
 
 viðskiptareglur
-- Reglur/heimildir/reiknireglur sem verða bundnar í kerfið (ákvarðanatré/tafla ef við á)
+- Samnings- og rekstrureglur (taxtar, endurgreiðslur, heimildir, villumeðhöndlun, gagna-varðveisla, persónuvernd); mapping í ákvörðunartöflur.
 
 o.fl. eins og við á.
-- Gögn & samþættingar (lykileiningar, eigendur, API tengingar)
-- MoSCoW forgangsröðun fyrir útgáfu 1
-- **Fully dressed** notkunarlýsing fyrir 1 lykil UC (Actor, Trigger, Preconditions, Main/Alternate Flows, Postconditions, Business Rules, NFR)
-- Opnar spurningar með eigendum og næstu skrefum
+- **Gögn & samþættingar:** Entity-listi, gagnalífsferill, API-samþættingar og SLA.
+- **MoSCoW tafla** fyrir útgáfu 1 tengd BO-1..BO-4.
+- **Fully dressed** notkunarlýsing fyrir lykil-UC (*Plan Trip* eða *Purchase Ticket*).
+- **BO-traceability matrisa** (kröfur ↔ BO).
 
 Hálf blaðsíða: Áætlun fyrir kröfusöfnun, punktalisti
 
 ## Áhætta sem getur hindrað kröfusöfnun 
-- Ófullnægjandi þátttaka (PO/ákvarðanataki mætir ekki) → *tryggja staðfestingu í lok fundar/fjarfundar*
-- Scope-creep og lausnahopp (of snemmbúin UI/arkitektúr umræða) → *parkera í „bíður“ lista*
-- Óskýr hugtök/gagnamerking → *setja upp lifandi orðalista (glossary) á staðnum*
-- Tímahalli → *tímahákar á hverju dagskráratriði; skrá ósvarað sem opnar spurningar*
-- Persónuvernd/öryggi óskýrt → *bóka sérfund með reglu-/öryggisaðila, skjalfesta ákvæði*
-- Engin upptaka/óljósar glósur → *samþykki fyrir upptöku; annars tvöföld skráning + myndir af hvítborði*
+- **Ákvarðanataka vantar (PO ekki til staðar)** → tryggja staðfestingarfund strax að loknum vinnustofu.
+- **Skilgreining á „skipulagstíma“ (BO-1) óljós** → setja formlega skilgreiningu & mælingapunkta á fundi.
+- **Survey-bias (BO-2)** → skilgreina spurningalista og grunnlínu áður; blinda hluta mats.
+- **Aðgengi að samstarfsaðila-API (BO-4) tafist** → forgangslista „low-friction“ aðila, fallback gagnaveitur.
+- **Hegðunarbreyting (BO-3) óviss** → setja A/B-tilraunaráætlun og forgangssetja hvata sem prófanlegir í útgáfu 1.
+- **Persónuvernd/greiðsluöryggi** → DPIA/PCI-mat áður en greiðslur eru virkjaðar; lágmörkun gagna.
