@@ -3,21 +3,7 @@
 ## Markmið
 - Lýsa helstu markmiðum kröfusöfnunar fyrir verkefnið sem á að greina
 
-Safnið og flokkið kröfur þeirra í:
-
-notendakröfur
-
-gæðaeiginleika (nonfunctional requirements)
-
-viðskiptareglur
-
-o.fl. eins og við á.
-
-punktalisti
-
-## Áætlaður staður og stund fyrir fundinn
-
-fundurinnn verður haldinn kl 14:30 16/10/2025 í öskju stofu 131.
+## Áætlaður staður og stund fyrir fundinn 
 
 ## Þátttakendur og hlutverk
 - Facilitator: Hver stýrir fundinum, hlutverk 
@@ -26,6 +12,10 @@ fundurinnn verður haldinn kl 14:30 16/10/2025 í öskju stofu 131.
 
 ## Aðferð kröfusöfnunar
 - Lýsið aðferð kröfusöfnunar, t.d. ef viðtal, þá spurningar (sjá námsefni)
+- Haldinn verður kröfusöfnunarfundur við viðskiptavini.
+
+#### Spurningar
+- 
 
 ## Líkön til að kveikja umræðu, skjöl og kerfi 
 - Búðu til einföld drög (t.d. flæði ferla, notkunartilvik, grófar skjámyndir) til að kveikja umræðu. 
@@ -36,12 +26,19 @@ fundurinnn verður haldinn kl 14:30 16/10/2025 í öskju stofu 131.
 - Viðskiptavinir/hagsmunaaðilar: …
 
 ## Dagskrá/Tímalína
-- 00:00–00:05 Kynning
-- 
-- Fyllið inn í eftir þörfum 
-- 
-- 00:55–01:00 Næstu skref
+Kröfusöfnunarfundur (Hópur 7 safnar frá 8): 16. októver kl 13:30 🕜Kröfusöfnunarfundur (Hópur 8 safnar frá 7): 16. októver kl 14:30 🕝
 
 ## Áætlaðar afurðir sem koma út úr kröfusöfnuninni 
+Safnið og flokkið kröfur þeirra í:
+
+notendakröfur
+
+gæðaeiginleika (nonfunctional requirements)
+
+viðskiptareglur
+
+o.fl. eins og við á.
+
+Hálf blaðsíða: Áætlun fyrir kröfusöfnun, punktalisti
 
 ## Áhætta sem getur hindrað kröfusöfnun 
