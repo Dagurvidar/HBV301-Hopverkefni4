@@ -2,25 +2,25 @@
 
 ## Viðskiptakröfur
 
-- BR-1: Sameina fjölbreytta ferðamáta (strætó, rútur, rafskútur, deilibílar, leigubílar, hjól, göngur, o.fl.) á einn stað.
+- BO-1: Sameina fjölbreytta ferðamáta (strætó, rútur, rafskútur, deilibílar, leigubílar, hjól, göngur, o.fl.) á einn stað.
 
-- BR-2: Minnka heildartíma frá „Skipuleggja ferð“ þar til miði er keyptur.
+- BO-2: Minnka heildartíma frá „Skipuleggja ferð“ þar til miði er keyptur.
 
-- BR-3: Stuðningur við gestaaðgang (án innskráningar) í fyrstu útgáfu.
+- BO-3: Stuðningur við gestaaðgang (án innskráningar) í fyrstu útgáfu.
 
-- BR-4: Forgangsraða samstarfi/integrationum (Klapp, Hopp, rútufyrirtæki o.s.frv.) fram yfir hraða og einfaldleika í V1.
+- BO-4: Forgangsraða samstarfi/integrationum (Klapp, Hopp, rútufyrirtæki o.s.frv.) fram yfir hraða og einfaldleika í V1.
 
-- BR-5: Auka notkun almenningssamgangna og umhverfisvænna ferðamáta.
+- BO-5: Auka notkun almenningssamgangna og umhverfisvænna ferðamáta.
 
-- BR-6: Sýna virði fyrir samstarfsaðila (meiri kúnnar/sýnileiki) og fá jákvæða endurgjöf innan árs.
+- BO-6: Sýna virði fyrir samstarfsaðila (meiri kúnnar/sýnileiki) og fá jákvæða endurgjöf innan árs.
 
-- BR-7: Hafa lausn sem skalar í ný lönd (t.d. DK) og fleiri samgöngur (ferjur/bátar).
+- BO-7: Hafa lausn sem skalar í ný lönd (t.d. DK) og fleiri samgöngur (ferjur/bátar).
 
-- BR-8: Byggja upp sterka vörumerkjaupplifun: fallegt, hraðvirkt og ávallt aðgengilegt app.
+- BO-8: Byggja upp sterka vörumerkjaupplifun: fallegt, hraðvirkt og ávallt aðgengilegt app.
 
-- BR-9: Taka gagnadrifnar ákvarðanir um áframhald (t.d. 5–10% aukning í notkun er ásættanleg en kallar á endurskoðun).
+- BO-9: Taka gagnadrifnar ákvarðanir um áframhald (t.d. 5–10% aukning í notkun er ásættanleg en kallar á endurskoðun).
 
-- BR-10: Mæla og sanna einföldun ferlis (tími, fjöldi skrefa, notendakannanir).
+- BO-10: Mæla og sanna einföldun ferlis (tími, fjöldi skrefa, notendakannanir).
 
 ## Notendakröfur
 
@@ -94,16 +94,16 @@
 
 ## Viðskiptareglur
 
-- BRULE-1: Notendur mega aldrei sjá staðsetningu annarra notenda.
+- BR-1: Notendur mega aldrei sjá staðsetningu annarra notenda.
 
-- BRULE-2: Forgangsröðun ákvarðana: Notendur og samstarfsaðilar „nr. 1“ þegar hagsmunir rekast á.
+- BR-2: Forgangsröðun ákvarðana: Notendur og samstarfsaðilar „nr. 1“ þegar hagsmunir rekast á.
 
-- BRULE-3: Mælingarregla: Ferðaskipulagstími mælist frá „Skipuleggja“ → „Kaupa miða“; óvirkni yfir X mín fellur út (útlagasía).
+- BR-3: Mælingarregla: Ferðaskipulagstími mælist frá „Skipuleggja“ → „Kaupa miða“; óvirkni yfir X mín fellur út (útlagasía).
 
-- BRULE-4: Samstarfsval í V1: Helstu aðilar fyrir lykilferðamáta (Strætó, Hopp, Bolt, BSÍ).
+- BR-4: Samstarfsval í V1: Helstu aðilar fyrir lykilferðamáta (Strætó, Hopp, Bolt, BSÍ).
 
-- BRULE-5: Samþættingarform: Nota API; velja REST/GraphQL/SOAP eftir aðila; byggja sérsniðin integration ef þarf.
+- BR-5: Samþættingarform: Nota API; velja REST/GraphQL/SOAP eftir aðila; byggja sérsniðin integration ef þarf.
 
-- BRULE-6: Markmiðsskilgreining: 10% aukning í notkun er ásættanleg fyrir áframhald; undir því → endurskoðun/pivot.
+- BR-6: Markmiðsskilgreining: 10% aukning í notkun er ásættanleg fyrir áframhald; undir því → endurskoðun/pivot.
 
-- BRULE-7: Stefna um sveigjanleika: Breyta stefnu ef meirihluti notenda vill annað og það „meikar sense“.
+- BR-7: Stefna um sveigjanleika: Breyta stefnu ef meirihluti notenda vill annað og það „meikar sense“.
