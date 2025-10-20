@@ -59,3 +59,12 @@
 - BR: BR-1, BR-2, BR-3, BR-4, BR-5, BR-6, BR-7, BR-8, BR-9, BR-10
 
 
+## Tengsl (Traceability)
+- BO: BO-1 (tímamælir í skrefum 4 & 9), BO-2 (sameining í skrefum 5–8), BO-4 (fallback E2)
+- FR: FR-1 (leiðareiknir – skref 5–6), FR-2 (samþættingar – skref 5–8/E2), FR-4 (kaup – skref 7–8), FR-5 (tímamæling – skref 4 & 9), FR-7 (röðun – skref 5–6), FR-8 (gestahamur – forsendur/A1), FR-12 (flýtileiðir – skref 1–2)
+- UR: UR-1 (multimodal – skref 5–6), UR-2 (Frá/Til/tími – skref 2–4), UR-5 („search+enter“ – skref 2–4), UR-6 (raða – skref 5–6), UR-7 (gestur – forsendur/A1)
+- QR: QR-1 (afköst – skref 2,5,7–8), QR-2 (aðgengi – leit/checkout), QR-3 (áreiðanleiki – E2), QR-4 (öryggi – skref 7–8), QR-5 (villur – E2/E3)
+- BR: BR-1 (ekki sýna aðra notendur – skref 6), BR-3 (mælingarregla – skref 4 & 9/E4), BR-5 (integration form – E2)
+
+
+
