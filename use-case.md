@@ -1,24 +1,55 @@
 # Fully Dressed Use Case
 
 **ID:** UC-1  
-**Heiti:** …  
-**Aðal aðili:** …  
-**Aukaaðilar:** …  
+**Heiti:** Skipuleggja ferð og kaupa miða (Plan Trip → Purchase)  
+**Aðal aðili:** Notandi (gestur eða innskráður)  
+**Aukaaðilar:** Greiðslugátt, Samgönguveitur (Strætó, Hopp, rútur o.fl.), Staðsetningarþjónusta (GPS), Tilkynningaþjónusta, Auðkenningarþjónusta (ef innskráning)
 
 ## Forsendur
-- …
+- Notandi hefur aðgang að Straumi (app eða vef) og nettengingu.
+- Samstarfsaðilar sem styðja fyrstu útgáfu eru tengdir (minnst Strætó + 1 örflutningsveita).
+- Kerfið má nota í **gestaham** (án aðgangs); innskráning gefur aukna virkni (sögu, kvittanir o.fl.).
+- Leyfi fyrir staðsetningu er valkvætt, en bætir niðurstöður (upphafsstaður sjálf-fyllist).
 
 ## Eftirskilyrði
-- …
+- Ferð hefur verið skipulögð og miði keypt (ef nauðsynlegt fyrir valinn ferðamáta).
+- Kerfið skráir **skipulagstíma** (frá „Byrja skipulagningu“ til „Staðfest kaup“) fyrir BO-1.
+- Notandi fær staðfestingu/kvittun og getur skoðað ferð í „Mínar ferðir“ (ef innskráður) eða í staðbundinni geymslu (gestur).
 
 ## Aðalflæði
-1. …
+1. Notandi opnar Straum og velur **„Plana ferð“**.
+2. Kerfið birtir leitarskjá með reitunum **Frá**, **Til**, **Brottfarartími/Komutími**, sía (ferðamátar) og **Leita**.
+3. *(Val)* Kerfið leggur til **Frá** út frá GPS/stefnu; notandi getur breytt.
+4. Notandi setur inn **Til** (áfangastað) og velur tíma (núna eða síðar); ýtir á **Leita**. → **Tímamælir BO-1 byrjar.**
+5. Kerfið sækir leiðir, sameinar þjónustur (t.d. Strætó + Hopp) og sýnir **samanburð** (tími, kostnaður, CO₂, göngulengd, áreiðanleiki).
+6. Notandi velur **leið** og skoðar nánari skref (leg) með kortsýningu og brottfarartímum í rauntíma ef tiltækt.
+7. Notandi velur **Kaupa/Reserva** (ef leið krefst miða) og setur greiðslumáta (Apple/Google Pay eða kort).  
+   - Ef **gestur**, kerfið biður um tölvupóst fyrir kvittun (valkvætt).
+8. Kerfið **staðfestir kaup**, birtir kvittun og geymir miða/heimild (QR/NFC) og leiðarskref.
+9. **Tímamælir BO-1 stoppar.** Kerfið skráir heildartíma og lykilskref (til greiningar BO-1/BO-2).
+10. Kerfið býður **leiðsögn/tilkynningar** (t.d. „Leg 2 seinkar 3 mín“) og geymir ferð.
 
 ## Valflæði
-- A1: …
+- **A1: Innskráning fyrir kaup**  
+  Notandi velur „Innskrá“ (eða „Halda áfram sem gestur“). Eftir árangursríka innskráningu heldur aðalflæði áfram í skref 7.
+- **A2: Breyta forgangi (hraði vs. verðsparnaður vs. umhverfi)**  
+  Notandi velur sía/vigtun (t.d. „hraðast“, „ódýrast“, „lágmarks CO₂“); kerfið endurraðar niðurstöðum; heldur áfram í skref 6.
+- **A3: Engin greiðsla nauðsynleg (ókeypis leg eða staðfesting nægir)**  
+  Skref 7 fellur niður; kerfið staðfestir bókun/leið og fer beint í skref 9.
+- **A4: Staðsetningarleyfi hafnað**  
+  Kerfið biður um handvirkt „Frá“; heldur áfram í skref 4.
 
 ## Undantekningar
-- E1: …
+- **E1: Engar leiðir fundust**  
+  Kerfið stingur upp á nálægum stoppum/tímum og biður um að breyta viðmiðum (dagsetning/sía); ef notandi hafnar, UC lýkur með stöðu „enginn kostur“.
+- **E2: Veituskekkja/niður í API hjá samstarfsaðila**  
+  Kerfið sýnir aðra kosti og merkingu „veita ótiltæk“; loggar til BO-4/SLA; heldur áfram ef mögulegt, annars „reyna aftur“.
+- **E3: Greiðsla hafnað**  
+  Kerfið biður um annan greiðslumáta eða „vista leið án kaupa“; ef mistókst aftur, UC lýkur án kaupa.
+- **E4: Óvirkni notanda (tímamælir)**  
+  Eftir X mín. birtist „Viltu halda áfram?“; ef ekki svar, tímamælir stöðvast og gögn vistast í „drög“; UC lýkur.
+- **E5: Verð/tími breytist á meðan á kaupum stendur**  
+  Kerfið sýnir breytingu og biður um samþykki; ef hafnað, aftur í skref 6.
 
 ## Tengsl (Traceability)
-- Kröfur: FR-__, UR-__ …
+
