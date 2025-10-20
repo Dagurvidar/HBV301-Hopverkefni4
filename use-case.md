@@ -1,9 +1,9 @@
 # Fully Dressed Use Case
 
 **ID:** UC-1  
-**Heiti:** Skipuleggja ferð og kaupa miða (Plan Trip → Purchase)  
-**Aðal aðili:** Notandi (gestur eða innskráður)  
-**Aukaaðilar:** Greiðslugátt, Samgönguveitur (Strætó, Hopp, rútur o.fl.), Staðsetningarþjónusta (GPS), Tilkynningaþjónusta, Auðkenningarþjónusta (ef innskráning)
+**Heiti:** Skipuleggja ferð og kaupa miða 
+**Aðal aðili:** Notandi Straums (gestur eða innskráður)  
+**Aukaaðilar:** Greiðslugátt, Samgönguveitur (Strætó, Hopp, rútur o.fl.), Staðsetningarþjónusta (GPS), Tilkynningaþjónusta, Auðkenningarþjónusta (ef innskráning á sér stað)
 
 ## Forsendur
 - Notandi hefur aðgang að Straumi (app eða vef) og nettengingu.
@@ -12,7 +12,7 @@
 - Leyfi fyrir staðsetningu er valkvætt, en bætir niðurstöður (upphafsstaður sjálf-fyllist).
 
 ## Eftirskilyrði
-- Ferð hefur verið skipulögð og miði keypt (ef nauðsynlegt fyrir valinn ferðamáta).
+- Ferð hefur verið skipulögð og miði keyptur (ef nauðsynlegt fyrir valinn ferðamáta).
 - Kerfið skráir **skipulagstíma** (frá „Byrja skipulagningu“ til „Staðfest kaup“) fyrir BO-1.
 - Notandi fær staðfestingu/kvittun og getur skoðað ferð í „Mínar ferðir“ (ef innskráður) eða í staðbundinni geymslu (gestur).
 
@@ -22,12 +22,12 @@
 3. *(Val)* Kerfið leggur til **Frá** út frá GPS/stefnu; notandi getur breytt.
 4. Notandi setur inn **Til** (áfangastað) og velur tíma (núna eða síðar); ýtir á **Leita**. → **Tímamælir BO-1 byrjar.**
 5. Kerfið sækir leiðir, sameinar þjónustur (t.d. Strætó + Hopp) og sýnir **samanburð** (tími, kostnaður, CO₂, göngulengd, áreiðanleiki).
-6. Notandi velur **leið** og skoðar nánari skref (leg) með kortsýningu og brottfarartímum í rauntíma ef tiltækt.
+6. Notandi velur **leið** og skoðar nánari skref með kortsýningu og brottfarartímum í rauntíma ef tiltækt.
 7. Notandi velur **Kaupa/Reserva** (ef leið krefst miða) og setur greiðslumáta (Apple/Google Pay eða kort).  
    - Ef **gestur**, kerfið biður um tölvupóst fyrir kvittun (valkvætt).
 8. Kerfið **staðfestir kaup**, birtir kvittun og geymir miða/heimild (QR/NFC) og leiðarskref.
 9. **Tímamælir BO-1 stoppar.** Kerfið skráir heildartíma og lykilskref (til greiningar BO-1/BO-2).
-10. Kerfið býður **leiðsögn/tilkynningar** (t.d. „Leg 2 seinkar 3 mín“) og geymir ferð.
+10. Kerfið býður **leiðsögn/tilkynningar** (t.d. „Ferð seinkar 3 mín“) og geymir ferð.
 
 ## Valflæði
 - **A1: Innskráning fyrir kaup**  
