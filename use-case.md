@@ -52,4 +52,10 @@
   Kerfið sýnir breytingu og biður um samþykki; ef hafnað, aftur í skref 6.
 
 ## Tengsl (Traceability)
+- BO: BO-1, BO-2, BO-3, BO-4, BO-5
+- FR: FR-1, FR-2, FR-3, FR-4, FR-5, FR-6, FR-7, FR-8, FR-12
+- UR: UR-1, UR-2, UR-3, UR-4, UR-5, UR-6, UR-7, UR-8, UR-9, UR-10
+- QR: QR-1, QR-2, QR-3, QR-4, QR-5
+- BR: BR-1, BR-2, BR-3, BR-4, BR-5, BR-6, BR-7, BR-8, BR-9, BR-10
+
 
