@@ -145,9 +145,9 @@
 - Búðu til einföld drög (t.d. flæði ferla, notkunartilvik, grófar skjámyndir) til að kveikja umræðu. 
 - Má t.d. vera mynd(ir) 
 - Ef þú vilt skoða núverandi kerfi með viðskiptakerfi vertu búin að undirbúa það 
-- Stjórnandi: …
-- Ritari: …
-- Viðskiptavinir/hagsmunaaðilar: …
+- Stjórnandi: Stefán Steinar Guðlaugsson
+- Ritari: Dagur Ingi Viðar
+- Viðskiptavinir/hagsmunaaðilar: Hópur 8
 
 ## Dagskrá/Tímalína
 Kröfusöfnunarfundur (Hópur 7 safnar frá 8): 16. októver kl 13:30 🕜
