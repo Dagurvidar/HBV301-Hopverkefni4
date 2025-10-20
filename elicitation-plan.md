@@ -18,10 +18,10 @@
 
 # Viðtalsrammi – Viðskiptaaðilar Straums
 
-**Viðmælandi:** ____________________________  
+**Viðmælandi:** Hópur 8  
 **Dagsetning:** 16/10/2025  
-**Tími:** ____________________________  
-**Viðtal tekið af:** ________________________  
+**Tími:** 14:30  
+**Viðtal tekið af:** Stefán Steinar Guðlaugsson og Dagur Ingi Viðar
 
 ---
 
