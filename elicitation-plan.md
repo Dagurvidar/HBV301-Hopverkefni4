@@ -155,16 +155,15 @@ Kröfusöfnunarfundur (Hópur 7 safnar frá 8): 16. októver kl 13:30 🕜
 Kröfusöfnunarfundur (Hópur 8 safnar frá 7): 16. októver kl 14:30 🕝
 
 ## Áætlaðar afurðir sem koma út úr kröfusöfnuninni 
-Safnið og flokkið kröfur þeirra í:
 
 notendakröfur
 
-gæðaeiginleika (nonfunctional requirements)
+gæðaeiginleika 
 
 viðskiptareglur
 
-o.fl. eins og við á.
 
 Hálf blaðsíða: Áætlun fyrir kröfusöfnun, punktalisti
 
 ## Áhætta sem getur hindrað kröfusöfnun 
+ófyrirsjáanlegar upákomur og lélegar spurningar
